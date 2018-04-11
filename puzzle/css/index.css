@@ -1,0 +1,61 @@
+body,img {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height:100%;
+}
+
+body {
+	background: #111;
+}
+
+#preserve {
+	display:block;
+	width: auto;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#puzzle {
+	position:fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	margin: auto;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+}
+
+.puzzle {
+	float:left;
+	box-sizing: border-box;
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: inherit;
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	font-size:0;
+}
+
+.btn_page {
+	position: fixed;
+	top: 0;
+	width: 50%;
+	height: 100%;
+}
+
+.btn_page:hover {
+	background: #333;
+}
+
+#btn_prev {
+	left: 0;
+}
+
+#btn_next {
+	right: 0;
+}
